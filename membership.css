@@ -1,0 +1,61 @@
+.membership-image h1{
+    /* font-size: 80px; */
+    text-align: center;
+    font-family: 'SohoGothicPro-BoldItalic';
+}
+.membership-shedule h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.membership-shedule p{
+    color: rgb(75, 71, 71);
+    text-align: center;
+}
+.membership-shedule .container .btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.Shehule-detail h4,p{
+    color: rgb(80, 76, 76);
+}
+.Shehule-detail h2{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.shedule-enquiry p,h4{
+    color: rgb(80, 76, 76);
+}
+.askQue h3{
+    font-size: 40px;
+    text-align: center;
+    /* margin-top: 30px;
+    margin-bottom: 30px; */
+}
+
+
+@media (max-width:767px)
+{
+    .membership-image h1{
+        font-size: 40px;
+    }
+}
+@media (max-width:300px)
+{
+
+    .membership-shedule > table{
+        width:50px
+    }
+}
+
+
+
+
+
+
+
+ 

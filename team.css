@@ -1,0 +1,71 @@
+.team .team-Writting a{
+    margin-bottom: 130PX;
+}
+.team h1{
+    padding-top: 30px;
+}
+.card{
+    box-shadow: rgb(38, 57, 77) 0px 20px 20px -10px;
+}
+.icon a{
+    /* border: 2px solid red; */
+    color: palevioletred;
+    
+}
+.icon a:hover{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    /* color: #ffffff; */
+    transition: all 0.5s ease;
+
+}
+
+ @media screen and (max-width:319px){
+    .icon a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        /* background-color: rgba(255,255,255,0.2); */
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        /* color: #ffffff; */
+        /* transition: all 0.5s ease; */
+    }  
+ }
+
+ @media screen and (max-width:992px) {
+    .col-lg-3{
+        margin:-70px 0px;
+    }
+    .col-lg-3 h5{
+        text-align: center;
+    }
+    .col-lg-3 .Btn{
+        display: flex;
+        align-items: center;
+        justify-content:center ;
+        /* width: 100px; */
+    }
+} 
+
+@media screen and (max-width:280px){
+   .team .row{
+    /* display: grid; */
+    /* grid-template-columns: repeat(4,1fr); */
+   }
+   .icon a{
+    display: none;
+    font-size: 20px;
+   }
+   .team .col{
+    width: 400px;
+   }
+}
