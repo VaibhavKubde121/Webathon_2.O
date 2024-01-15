@@ -33,8 +33,8 @@ Welcome to the Gym Management Website! This website is designed to manage and fa
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/gym-management-website.git
-   cd gym-management-website
+   git clone https://github.com/VaibhavKubde121/Webathon_2.O.git
+   
 
 ##Contributing
 
